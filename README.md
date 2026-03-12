@@ -3,7 +3,7 @@
 
 ## Overview
 ---
-This is a simple turing-full programming language written in Java 21.
+This is a simple Turing-complete programming language written in Java 21.
 
 ## Example
 ---
@@ -19,10 +19,10 @@ print('Factorial of 5 is:', factorial(5))
 ## Project structure
 ---
 
-* `src/` - source code of the rpscript
+* `src/` - source code of the interpreter
 * `example_programs/` - example programs written in rpscript
 
-## Building
+## Building and running
 ---
 
 ### Requirements
