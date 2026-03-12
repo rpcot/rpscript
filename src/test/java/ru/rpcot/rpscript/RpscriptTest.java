@@ -63,7 +63,7 @@ class RpscriptTest {
         Interpreter interpreter = new Interpreter(state);
         Object result = interpreter.run(program);
 
-        assertEquals(null, result);
+        assertNull(result);
     }
 
     @Test

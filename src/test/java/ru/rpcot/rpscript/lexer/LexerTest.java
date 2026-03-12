@@ -33,8 +33,8 @@ class LexerTest {
 
         List<Token> tokens = lexer.tokenize();
 
-        assertEquals(TokenType.NUMBER, tokens.get(0).getType());
-        assertEquals("2.45", tokens.get(0).getValue());
+        assertEquals(TokenType.NUMBER, tokens.getFirst().getType());
+        assertEquals("2.45", tokens.getFirst().getValue());
     }
 
     @Test
@@ -94,8 +94,8 @@ class LexerTest {
 
         List<Token> tokens = lexer.tokenize();
 
-        assertEquals(TokenType.STRING, tokens.get(0).getType());
-        assertEquals("Hello, World!\n", tokens.get(0).getValue());
+        assertEquals(TokenType.STRING, tokens.getFirst().getType());
+        assertEquals("Hello, World!\n", tokens.getFirst().getValue());
     }
 
     @Test

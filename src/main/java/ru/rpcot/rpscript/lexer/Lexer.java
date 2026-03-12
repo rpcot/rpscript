@@ -37,7 +37,7 @@ public class Lexer {
                     line++;
                     this.currentIndex++;
                 }
-                case '\t', '\r', '\s' -> this.currentIndex++;
+                case '\t', '\r', ' ' -> this.currentIndex++;
                 case '+' -> {
                     tokens.add(new Token(TokenType.PLUS, line));
                     this.currentIndex++;
