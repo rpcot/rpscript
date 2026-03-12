@@ -1,0 +1,5 @@
+const test = 'const value'
+var test2 = 'value'
+
+print(test)
+print(test2)

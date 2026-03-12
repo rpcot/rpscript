@@ -1,0 +1,10 @@
+for (var i = 0;i < 5;i = i + 1) {
+    print('Loop 1:', i)
+}
+
+var i = 0
+for (;;) {
+    if (i == 10) break
+    print('Loop 2:', i)
+    i = i + 1
+}

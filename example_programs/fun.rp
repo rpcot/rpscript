@@ -1,0 +1,12 @@
+fun greeting(name) {
+    if (name == null) {
+        print('Error: name expected')
+        return false
+    } else {
+        print('Hi', name)
+        return true
+    }
+}
+
+print('Result 1:', greeting())
+print('Result 2:', greeting('Sam'))

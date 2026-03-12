@@ -1,0 +1,13 @@
+const num1 = number(read('Number 1: '))
+const num2 = number(read('Number 2: '))
+const op = read('Operator (*, /, +, -): ')
+
+if (op == '*') {
+    print(num1, '*', num2, '=', num1 * num2)
+} else if (op == '/') {
+   print(num1, '/', num2, '=', num1 / num2)
+} else if (op == '+') {
+   print(num1, '+', num2, '=', num1 + num2)
+} else if (op == '-') {
+   print(num1, '-', num2, '=', num1 - num2)
+} else print('unknown operator:', op)

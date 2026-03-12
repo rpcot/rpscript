@@ -1,0 +1,2 @@
+const input = read('Input:\n')
+print(input)
