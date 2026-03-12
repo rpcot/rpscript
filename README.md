@@ -1,12 +1,10 @@
 # rpscript
----
 
 ## Overview
----
+
 This is a simple Turing-complete programming language written in Java 21.
 
 ## Example
----
 
 ```kotlin
 fun factorial(n) {
@@ -17,13 +15,11 @@ print('Factorial of 5 is:', factorial(5))
 ```
 
 ## Project structure
----
 
 * `src/` - source code of the interpreter
 * `example_programs/` - example programs written in rpscript
 
 ## Building and running
----
 
 ### Requirements
 
